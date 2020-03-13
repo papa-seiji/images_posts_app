@@ -1,6 +1,6 @@
 <div class="content">
   <p><%= product.name %></p>
-  <p><%= product.price %>円</p>
+  <p><%= product.price %></p>
   <% product.images.each do |image| %>
   <%= image_tag image.src.url %>
   <% end %>
