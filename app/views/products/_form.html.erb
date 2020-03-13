@@ -1,6 +1,6 @@
 <%= form_for @product do |f| %>
-  商品名<%= f.text_field :name %><br>
-  価格<%= f.number_field :price %><br>
+  [message]<%= f.text_field :name %><br>
+  [name]<%= f.number_field :price %><br>
   <div id="image-box">
     <div id="previews">
       <% if @product.persisted? %>
