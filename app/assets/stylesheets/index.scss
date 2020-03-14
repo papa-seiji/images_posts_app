@@ -1,0 +1,57 @@
+
+.post{
+  width: 900px;
+  background-color: black;
+  text-align: center;
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.moji{
+  font-weight: bold;
+  font-size: 30px;
+  background-color: rgb(16, 16, 70);
+  color: white;
+}
+
+.contents{
+  background-color: rgb(0, 0, 0);
+  
+  .content{
+    border-radius: 3px;
+    background-color: rgb(83, 119, 119);
+    margin: 0 88px ;
+    border: 1px solid rgb(83, 119, 119);
+    margin-top: 5px;
+
+    .messa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px ;
+    font-weight: bold;
+
+    }
+    .daytime{
+      font-size: 4px;
+    }
+  }
+  .edit{
+    color: burlywood;
+    background-color: rgb(83, 119, 119);
+    padding: 3px;
+    margin-left: 65%;
+    border: 1px solid rgb(83, 119, 119);
+    
+    
+  }
+  .dele{
+    color: red;
+    background-color: rgb(83, 119, 119);
+    padding: 3px;
+    border: 1px solid rgb(83, 119, 119);
+    
+  }
+}
