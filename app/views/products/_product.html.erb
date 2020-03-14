@@ -1,11 +1,15 @@
+<div id="left_card">
+</div>
 
-<div class="content">
-  <p class="messa"><%= product.name %></p>
-  <p class="daytime"><%= product.created_at %></p>
-  <% product.images.each do |image| %>
-  <%= image_tag image.src.url %>
-  <% end %>
+<div class="contents">
+  <div class="content">
+    <p class="messa"><%= product.name %></p>
+    <p class="daytime"><%= product.created_at %></p>
+    <% product.images.each do |image| %>
+    <%= image_tag image.src.url %>
+    <% end %>
+  </div>
 </div>
 
 <%= link_to '⇧編集', edit_product_path(product),{class:'edit'} %>
-<%= link_to '⇧削除', product_path(product), method: :delete ,class:'dele' %>
+<%= link_to '⇧削除', product_path(product), method: :delete ,id:'dele' %>
