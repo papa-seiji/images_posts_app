@@ -1,9 +1,11 @@
+
 <div class="content">
-  <p><%= product.name %></p>
-  <p><%= product.price %></p>
+  <p class="messa"><%= product.name %></p>
+  <p class="daytime"><%= product.created_at %></p>
   <% product.images.each do |image| %>
   <%= image_tag image.src.url %>
   <% end %>
 </div>
-<%= link_to '編集', edit_product_path(product) %>
-<%= link_to '削除', product_path(product), method: :delete %>
+
+<%= link_to '⇧編集', edit_product_path(product),{class:'edit'} %>
+<%= link_to '⇧削除', product_path(product), method: :delete ,class:'dele' %>

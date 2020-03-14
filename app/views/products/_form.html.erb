@@ -1,6 +1,6 @@
 <%= form_for @product do |f| %>
-  [message]<%= f.text_field :name %><br>
-  [name]<%= f.number_field :price %><br>
+  [message]<%= f.text_field :name , placeholder: 'NEW-Messageを入れてください!! '%><br>
+    
   <div id="image-box">
     <div id="previews">
       <% if @product.persisted? %>
@@ -25,5 +25,11 @@
       </div>
     <% end %>
   </div>
-  <%= f.submit %>
+  <%= f.submit 'Send', class: 'form__submit' %>
 <% end %>
+
+<div class="container">
+			<button class="btn btn-inside btn-boarder"><img src="https://i.cloudup.com/gBzAn-oW_S-2000x2000.png" width="64px" height="64px" id="plane"></button>
+			<div class="bg"><img src="https://i.cloudup.com/2ZAX3hVsBE-3000x3000.png" id="bg" width="32px" height="32px" style="opacity:0;"></div>
+			<div class="around around-boarder" onclick="ani(); anitwo();"></div>
+		</div>
