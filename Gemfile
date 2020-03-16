@@ -64,9 +64,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 group :production do
-  gem 'carrierwave'
-  gem 'mini_magick'
   gem 'pg'
-  # gem 'rails_12factor'
-  gem 'font-awesome-sass'
 end
+
+gem 'font-awesome-sass'
+gem 'carrierwave'
+gem 'mini_magick'
