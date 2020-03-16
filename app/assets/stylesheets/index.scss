@@ -14,21 +14,22 @@ body{
 .ab{
   display: inline;
   position: absolute;
-  top: 200px;
+  top: 230px;
   left: 190px;
   position: fixed;
+  margin-left: 38px;
   }
   ol .z{
     display: inline;
     position: absolute;
-    top: 360px;
+    top: 390px;
     left: 187px;
     position: fixed;
   }
   .x{
     display: inline;
     position: absolute;
-    top: 330px;
+    top: 360px;
     left: 187px;
     position: fixed;
     
@@ -36,7 +37,7 @@ body{
   .c{
     display: inline;
     position: absolute;
-    top: 300px;
+    top: 330px;
     left: 187px;
     position: fixed;
 
@@ -74,6 +75,7 @@ body{
   width: 5%;
   display: block;
   position: fixed;
+  transition:0.7s ;
 }
 .moji:hover{
   font-weight: bold;
@@ -85,7 +87,7 @@ body{
   width: 30%;
   display: block;
   position: fixed;
-  transition:0.5s ;
+  transition:0.7s ;
 }
 
 .contents{
