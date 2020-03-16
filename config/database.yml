@@ -49,6 +49,8 @@ test:
 #
 production:
   <<: *default
-  database: images_posts_app_production
+  # database: images_posts_app_production
   username: images_posts_app
   password: <%= ENV['IMAGES_POSTS_APP_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  database: db_production
