@@ -1,20 +1,55 @@
 
-body{
-  background-color: rgb(109, 163, 109);
-  // padding: 30px;
-  // width: 100vw;
-  // position: relative;
+// body{
+//   background-color: rgb(109, 163, 109);
+//   // padding: 30px;
+//   // width: 100vw;
+//   // position: relative;
   
-}
+// }
 
-#left_card{
-  width: 400px;
-  height: 100px;
-  float: right;
-  position: absolute;
-  right: 63%;
-  // border: 1px solid;
+body{
+  position: relative;
+  background-color: rgb(109, 163, 109);
 }
+.ab{
+  display: inline;
+  position: absolute;
+  top: 200px;
+  left: 190px;
+  position: fixed;
+  }
+  ol .z{
+    display: inline;
+    position: absolute;
+    top: 360px;
+    left: 187px;
+    position: fixed;
+  }
+  .x{
+    display: inline;
+    position: absolute;
+    top: 330px;
+    left: 187px;
+    position: fixed;
+    
+  }
+  .c{
+    display: inline;
+    position: absolute;
+    top: 300px;
+    left: 187px;
+    position: fixed;
+
+  }
+
+// #left_card{
+//   width: 400px;
+//   height: 100px;
+//   float: right;
+//   position: absolute;
+//   right: 63%;
+//   // border: 1px solid;
+// }
 
 .post{
   width: 880px;
@@ -31,13 +66,26 @@ body{
 
 .moji{
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   background-color:orange;
   color:black;
   border-radius: 6px;
   padding: 8px;
-  width: 60%;
+  width: 5%;
   display: block;
+  position: fixed;
+}
+.moji:hover{
+  font-weight: bold;
+  font-size: 20px;
+  background-color:palevioletred;
+  color:rgb(238, 13, 13);
+  border-radius: 6px;
+  padding: 8px;
+  width: 30%;
+  display: block;
+  position: fixed;
+  transition:0.5s ;
 }
 
 .contents{
