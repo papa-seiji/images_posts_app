@@ -67,6 +67,6 @@ group :production do
   gem 'carrierwave'
   gem 'mini_magick'
   gem 'pg'
-  gem 'rails_12factor'
+  # gem 'rails_12factor'
   gem 'font-awesome-sass'
 end
