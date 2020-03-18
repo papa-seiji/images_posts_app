@@ -1,10 +1,9 @@
 
 body{
-  background-color: rgb(109, 163, 109);
+  background-color: rgba(236, 247, 247, 0.973);
   // padding: 30px;
   // width: 100vw;
-  // position: relative;
-  
+  position: relative;
 }
 
 #left_card{
@@ -13,12 +12,14 @@ body{
   float: right;
   position: absolute;
   right: 63%;
+  background-color: rgb(27, 26, 27);
   // border: 1px solid;
+  position: fixed;
 }
 
 .post{
-  width: 880px;
-  background-color: black;
+  width: calc(97% - 45%);
+  background-color: rgba(207, 240, 240, 0);
   text-align: center;
   border-radius: 3px;
   float: right;
@@ -31,24 +32,37 @@ body{
 
 .moji{
   font-weight: bold;
-  font-size: 30px;
+  font-size: 28px;
   background-color:orange;
   color:black;
   border-radius: 6px;
-  padding: 8px;
-  width: 60%;
+  // padding: 8px;
+  width: 8%;
   display: block;
+  transition: 0.7s;
+  position: fixed;
+}
+.moji:hover{
+  font-weight: bold;
+  font-size: 22px;
+  background-color:rgb(247, 134, 153);
+  color:black;
+  border-radius: 6px;
+  padding: 8px;
+  width: 30%;
+  display: block;
+  transition: 0.7s;
 }
 
 .contents{
-  background-color: rgb(0, 0, 0);
-
+  background-color: rgba(123, 126, 126, 0.164);
+  
   .content{
     overflow: scroll;
     border-radius: 3px;
-    background-color: rgb(83, 119, 119);
-    margin: 0 88px ;
-    border: 1px solid rgb(83, 119, 119);
+    background-color: rgb(99, 98, 98);
+    margin: 0 14px ;
+    border: 3px solid black;
     margin-top: 5px;
 
     .messa{
