@@ -4,24 +4,29 @@ body{
   background-color: rgba(236, 247, 247, 0.973);
   // padding: 30px;
   // width: 100vw;
+  height: 0px;
   position: relative;
 
-}
 .ab{
   display: inline;
   position: absolute;
   right: 63%;
-  background-color: rgb(27, 26, 27);
-  // border: 1px solid;
+  top: 230px;
+  left: 190px;
   position: fixed;
+  margin-left: 38px;
 }
+
+ol{
+  display: inline;
+  .z{
 
   top: 230px;
   left: 190px;
   position: fixed;
   margin-left: 38px;
   }
-  ol .z{
+  .z{
     display: inline;
     position: absolute;
     top: 390px;
@@ -42,17 +47,9 @@ body{
     top: 330px;
     left: 187px;
     position: fixed;
-
   }
+}
 
-// #left_card{
-//   width: 400px;
-//   height: 100px;
-//   float: right;
-//   position: absolute;
-//   right: 63%;
-//   // border: 1px solid;
-// }
 
 
 .post{
@@ -79,6 +76,7 @@ body{
   transition: 0.7s;
   position: fixed;
 }
+
 .moji:hover{
   font-weight: bold;
   font-size: 22px;
@@ -107,7 +105,6 @@ body{
 
 .contents{
   background-color: rgba(123, 126, 126, 0.164);
-  
   .content{
     overflow: scroll;
     border-radius: 3px;
