@@ -1,5 +1,5 @@
-<div id="left_card">
-</div>
+<%# <div id="left_card">
+</div> %>
 
 <div class="contents">
   <div class="content">
@@ -12,6 +12,11 @@
 </div>
 
 <%= link_to '⇧編集', edit_product_path(product),{class:'edit'} %>
-<%= link_to '⇧削除', product_path(product), method: :delete ,id:'dele',data: {confirm: "押し間違えではないですか？
-本当に削除していいですか？
-最終確認です！"} %>
+
+<%= link_to '⇧削除', product_path(product), method: :delete ,id:'dele', data: { confirm: 
+
+'ウッカリ押してしまった訳ではないですか？
+
+本当に"削除"してもいいですか？
+
+最終確認画面です！' }%>
