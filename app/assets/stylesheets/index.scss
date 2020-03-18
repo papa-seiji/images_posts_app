@@ -1,11 +1,11 @@
 
 body{
+
   background-color: rgba(236, 247, 247, 0.973);
   // padding: 30px;
   // width: 100vw;
   height: 0px;
   position: relative;
-}
 
 .ab{
   display: inline;
@@ -19,6 +19,13 @@ body{
 
 ol{
   display: inline;
+  .z{
+
+  top: 230px;
+  left: 190px;
+  position: fixed;
+  margin-left: 38px;
+  }
   .z{
     display: inline;
     position: absolute;
@@ -44,6 +51,7 @@ ol{
 }
 
 
+
 .post{
   width: calc(97% - 45%);
   background-color: rgba(207, 240, 240, 0);
@@ -59,11 +67,10 @@ ol{
 
 .moji{
   font-weight: bold;
-  font-size: 28px;
+  font-size: 20px;
   background-color:orange;
   color:black;
   border-radius: 6px;
-  // padding: 8px;
   width: 8%;
   display: block;
   transition: 0.7s;
@@ -77,9 +84,23 @@ ol{
   color:black;
   border-radius: 6px;
   padding: 8px;
+
+  width: 5%;
+  display: block;
+  position: fixed;
+  transition:0.7s ;
+}
+.moji:hover{
+  font-weight: bold;
+  font-size: 20px;
+  background-color:palevioletred;
+  color:rgb(238, 13, 13);
+  border-radius: 6px;
+  padding: 8px;
   width: 30%;
   display: block;
-  transition: 0.7s;
+  position: fixed;
+  transition:0.7s ;
 }
 
 .contents{

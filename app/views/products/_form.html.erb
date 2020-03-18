@@ -1,5 +1,5 @@
 <%= form_for @product do |f| %>
-  [message]<%= f.text_field :name , placeholder: 'NEW-Messageを入れてください!! '%><br>
+  [message]<%= f.text_field :name , placeholder: 'NEW-Messageを入れてください!!'%><br>
     
   <div id="image-box">
     <div id="previews">
@@ -12,7 +12,7 @@
     <%= f.fields_for :images do |image| %>
       <div data-index="<%= image.index %>" class="js-file_group">
         <%= image.file_field :src, class: 'js-file' %><br>
-        <span class="js-remove">削除</span>
+        <span class="js-remove">Delete</span>
       </div>
       <% if @product.persisted? %>
         <%= image.check_box :_destroy, data:{ index: image.index }, class: 'hidden-destroy' %>
@@ -21,7 +21,7 @@
     <% if @product.persisted? %>
       <div data-index="<%= @product.images.count %>" class="js-file_group">
         <%= file_field_tag :src, name: "product[images_attributes][#{@product.images.count}][src]", class: 'js-file' %>
-        <div class="js-remove">削除</div>
+        <div class="js-remove">Delete</div>
       </div>
     <% end %>
   </div>
@@ -33,3 +33,6 @@
 			<div class="bg"><img src="https://i.cloudup.com/2ZAX3hVsBE-3000x3000.png" id="bg" width="32px" height="32px" style="opacity:0;"></div>
 			<div class="around around-boarder" onclick="ani(); anitwo();"></div>
 		</div>
+
+    <%= link_to 'Topに戻る', root_path(),{class:'top'} %>
+
