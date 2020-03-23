@@ -1,6 +1,25 @@
+.field{
+  background-color: rgb(3, 3, 3);
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+}
+.field_1{
+  color:black;
+  background-color:rgb(221, 217, 217);
+  width: calc(100% - 63%);
+  height: 100vh;
+  position: fixed;
+  // opacity: 20;
 
+  .field_2{
+    text-align: center;
+    line-height: 2;
+    margin-top: 60%;
+  }
+}
 .post{
-  width: 900px;
+  width: calc(100% - 40%);
   background-color: black;
   text-align: center;
   float: right;
@@ -13,9 +32,39 @@
 
 .moji{
   font-weight: bold;
-  font-size: 30px;
-  background-color: rgb(16, 16, 70);
-  color: white;
+  font-size: 20px;
+  background-color: orange;
+  color: black;
+  border-radius: 6px;
+  padding: 8px;
+  width: 5%;
+  display: block;
+  position: fixed;
+  transition: 0.7s;
+}
+.moji:hover{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(241, 58, 113);
+  color: black;
+  border-radius: 6px;
+  padding: 8px;
+  width: 18%;
+  display: block;
+  position: fixed;
+  transition: 0.7s;
+}
+.moji{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: orange;
+  color: black;
+  border-radius: 6px;
+  padding: 8px;
+  width: 5%;
+  display: block;
+  position: fixed;
+  transition: 0.7s;
 }
 
 .contents{
@@ -24,7 +73,7 @@
   .content{
     border-radius: 3px;
     background-color: rgb(83, 119, 119);
-    margin: 0 88px ;
+    margin: 0 15px ;
     border: 1px solid rgb(83, 119, 119);
     margin-top: 5px;
 

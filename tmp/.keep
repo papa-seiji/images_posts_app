@@ -1,0 +1,3 @@
+def cache_dir
+  "#{Rails.root}/tmp/uploads"
+end

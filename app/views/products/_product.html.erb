@@ -8,4 +8,5 @@
 </div>
 
 <%= link_to '⇧編集', edit_product_path(product),{class:'edit'} %>
-<%= link_to '⇧削除', product_path(product), method: :delete ,class:'dele' %>
+<%= link_to '⇧削除', product_path(product), method: :delete ,class:'dele',data: {confirm: "押し間違え？!
+本当に削除してもいいですか？"} %>
